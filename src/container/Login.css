@@ -1,0 +1,83 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  input[type="password"] {
+    flex-grow: 1;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .login{
+    width: 190px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(21, 205, 114);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+  h3 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #c09898; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h3 span { 
+     background:#fff; 
+     padding:0 10px; 
+     color: #4F4557;
+ }
+  
+.login_google{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .login_google img {
+    width: 40px;
+    height: 36px;
+    position: relative;
+    right: 47px;
+  }
+  

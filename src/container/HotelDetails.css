@@ -1,0 +1,37 @@
+li{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.room{
+    color: rgb(59, 56, 56);
+    font-size: 18px;
+    font-weight: 500;
+}
+.room_body{
+    display: flex;
+    position: relative;
+    left: -40px;
+    top: -10px;
+}
+.aboutThePlace{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feature_body{
+    position: relative;
+    left: -40px;
+    top: -10px;
+}
+.feature_title{
+    position: relative;
+    left: 40px;
+}
+.feature_list{
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
